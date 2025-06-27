@@ -1,24 +1,24 @@
 {
-	"name" : "zohocrm/php-sdk-archive",
-	"description" : "Zoho CRM API SDK for PHP",
-	"type" : "SDK",
-	"homepage" : "https://github.com/zoho/zcrm-php-sdk",
-	"authors" : [{
-			"name" : "Zoho CRM API Team",
-			"email" : "support@zohocrm.com",
-			"homepage" : "https://www.zoho.com/crm/help/customer-support.html",
-			"role" : "Developer"
-		}
-	],
-	"require" : {
-		"php" : ">=5.6"
-	},
-	"require-dev" : {
-		"phpunit/phpunit" : ">=5.7"
-	},
-	"autoload" : {
-		"psr-4" : {
-			"zcrmsdk\\" : "src/"
-		}
-	}
+    "name" : "icp/zcrm-php-sdk-icp",
+    "description" : "Zoho CRM API SDK for PHP",
+    "type" : "SDK",
+    "homepage" : "https://github.com/ooveaoo/zcrm-php-sdk-icp",
+    "authors" : [{
+        "name" : "Zoho CRM old API for for php >8.1",
+        "email" : "vvea@mail.ru",
+        "homepage" : "",
+        "role" : "Developer"
+    }
+    ],
+    "require" : {
+        "php" : ">=5.6"
+    },
+    "require-dev" : {
+        "phpunit/phpunit" : ">=5.7"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "zcrmsdk\\" : "src/"
+        }
+    }
 }
